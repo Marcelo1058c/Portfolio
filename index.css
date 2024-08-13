@@ -49,13 +49,11 @@ header nav li a:hover {
 /* TOPO DO SITE QUE TEM MEU ROSTO LINGO*/
 section.corpo-site
 {
-  border: solid red;
-  border: solid red;
   width: auto;
-  height: 1080px;
+  height: 2080px;
   margin:10px;
   padding: 20px;
-  background-image: url('./assets/eu\ teste.png');
+  background-image: url('/eu\ teste.png');
   background-size: auto;
   background-repeat: no-repeat;
   background-size: 100vw;
@@ -65,23 +63,81 @@ section.corpo-site
 .texto h1{
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  border: #007BFF solid;
   padding: 4px;
   font-size: 7vw;
   position: relative;
-  top: 30vw;
-width: 80vw;
+  top: 19vw;
+  width: 70vw;
 
 }
-
+.ponto {
+color: #007BFF;
+}
 .texto p{
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  border: #007BFF solid;
+  left:10vw;
   padding: 4px;
   font-size: 2vw;
   position: relative;
-  top: 30vw;
+  top: 18vw;
   width: 80vw;
   
+}
+.btn-link {
+
+  font-size: 2vw;
+  position: relative;
+  top: 28vw;
+  width: 30vw;
+  left: 30vw;
+  text-align:  center;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Letra clara */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+  
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+
+.btn-link:hover {
+  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
+.footer {
+  background-color: #333; /* Cor de fundo do rodapé */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Cor do texto */
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.linkedin-link {
+  text-decoration: none;
+}
+
+.linkedin-icon {
+  width: 30px; /* Tamanho do ícone do LinkedIn */
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-link:hover .linkedin-icon {
+  transform: scale(1.1); /* Aumenta levemente o ícone no hover */
+}
+
+.phone-number {
+  margin: 0;
 }
