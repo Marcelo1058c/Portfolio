@@ -6,9 +6,10 @@
 
 
 body {
-  background-color: rgb(5, 5, 5);
-  height: 100vh;
+  
+    background: linear-gradient(to bottom, #000000, #0754a781);
 }
+
 
 .interface {
   max-width: 1280px;
@@ -28,9 +29,10 @@ header > .interface {
 }
 
 header a {
-  color: aliceblue;
+  color: rgba(240, 248, 255, 0.945);
   text-decoration: none;
 }
+
 
 header nav ul {
   list-style: none;
@@ -47,41 +49,64 @@ header nav li a:hover {
 }
 
 /* TOPO DO SITE QUE TEM MEU ROSTO LINGO*/
+main{
+  
+  min-height: 100vh;
+}
 section.corpo-site
 {
   width: auto;
-  height: 2080px;
+  height: 580px;
   margin:10px;
   padding: 20px;
-  background-image: url('./eu.png');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  
+  display: flex;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.texto h1{
-  color: aliceblue;
-  font-family: 'Poppins', sans-serif;
-  padding: 4px;
-  font-size: 7vw;
+.left, .right {
+    width: 48%;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left h2, .right h2 {
+    margin-top: 0;
+}
+.left h2 {
+  color: #007BFF;
+  font-size: 48px;
+  }
+  .left h3 {
+    font-size: 2vw;
+    position: relative;
+    top: 2vw;
+  }
+.left p {
   position: relative;
-  top: 19vw;
-  width: 70vw;
-  left:10vw;
+  top: 5vw;
+  font-size: 1.7vw;
 }
-.ponto {
-color: #007BFF;
+.right{
+  position: relative;
+  top: 5vw;
+  width: 18%;
+  right: 16%;
 }
-.texto p{
-  color: aliceblue;
-  font-family: 'Poppins', sans-serif;
-  left:10vw;
-  padding: 4px;
+.right h2{
+  text-align: right;
+  color: #007BFF;
   font-size: 2vw;
   position: relative;
-  top: 18vw;
-  width: 80vw;
+}
+.right p {
+  text-align: right;
+  position: relative;
+  top: 5vw;
+  font-size: 1vw;
   
 }
 .btn-link {
