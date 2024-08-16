@@ -60,8 +60,7 @@ section.corpo-site
   width: auto;
   height: 580px;
   margin-top: 10px;
-
-  
+  display: inline-block;
 }
 .container {
     display: flex;
@@ -113,7 +112,7 @@ background-position-x: right;
 }
 .left {
 background-color:#eeeee0;
-height: 70vw;
+height: 80vw;
 position: relative;
 top: 1vw;
 font-family: 'Alegreya', serif;
@@ -127,7 +126,7 @@ font-size: 1.7vw;
 }
 .left h2 {
   color: #007BFF;
-  font-size: 48px;
+  font-size: 4vw;
   }
   .left h3 {
     font-size: 2vw;
@@ -152,7 +151,7 @@ font-size: 1.7vw;
 .right h2{
   text-align: right;
   color: #007BFF;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   position: relative;
 }
 .right p {
@@ -182,15 +181,17 @@ body {
 section>.left-sercom {
     text-align: left;
     position: relative;
-    top: 55vw;
-    left: 4.5%;
+    top: 8vw;
+    left: 6%;
+    width: 58vw;
     background-color: #eeeee0;
     color: #000000;
     font-family: 'Alegreya', serif;
-    padding-inline-start: 10px;
+    padding-inline-start: 20px;
+    
 }
 section>.left-sercom h3{
-    font-size: 48px;
+    font-size: 4vw;
     position: relative;
     left: 2%;
     color: #007BFF;
@@ -204,9 +205,7 @@ section>.left-sercom p{
 .right-sercom {
     text-align: left;
     position: relative;
-    top: 55vw;
-    width: 18%;
-    right: 15.8%;
+    top: 5vw;
     background-color: #eeeee0;
     padding: 15px;
     color: #000000;
@@ -336,10 +335,10 @@ font-size: 1.7vw;
 .phone-number {
   margin: 0;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.download-btn
+  {
+font-size: 3vw;
+position: relative;
+top: 3vw;
 }
 
-  

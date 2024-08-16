@@ -141,3 +141,28 @@ color: #007BFF;
 .phone-number {
   margin: 0;
 }
+.download-btn
+  {
+
+  font-size: 2vw;
+  position: relative;
+  top: 38vw;
+  width: 30vw;
+  
+  text-align:  center;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Letra clara */
+  padding: 10px 20px;
+  
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+  
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+.download-btn:hover {
+  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
