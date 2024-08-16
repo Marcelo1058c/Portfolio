@@ -7,7 +7,7 @@
 
 body {
   
-    background: linear-gradient(to bottom, #000000, #0754a781);
+    /*background: linear-gradient(to bottom, #000000, #0754a781);*/
 }
 
 
@@ -19,6 +19,7 @@ body {
 /* Estilo do cabeçalho */
 header {
   padding: 10px;
+  background-color: #000000;
 }
 
 header > .interface {
@@ -50,29 +51,77 @@ header nav li a:hover {
 
 /* TOPO DO SITE QUE TEM MEU ROSTO LINGO*/
 main{
-  
-  min-height: 100vh;
+  height: 3080px;
+
+
 }
 section.corpo-site
 {
   width: auto;
   height: 580px;
-  margin:10px;
-  padding: 20px;
-  display: flex;
+  margin-top: 10px;
+
+  
 }
 .container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    font-family: 'Alegreya', serif;
 }
+.introducao {
+background-color: #000000;
+color: aliceblue;
+width: auto;
+height: auto;
+background-image: url(./experiencia.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Alegreya', serif;
+position: relative;
+background-position-x: right;
+}
+.introducao h2{
+  font-size: large;
+  font-size: 3vw;
+  padding: 20px;
+  position: relative;
+  left: 2vw;
 
+}
+.introducao span {
+  color: #007BFF;
+
+}
+.introducao h3{
+  font-size: large;
+  font-size: 3vw;
+  padding: 20px;
+  position: relative;
+  left: 2vw;
+}
+.introducao p{
+  font-size: large;
+  font-size: 5vw;
+  padding: 20px;
+  position: relative;
+  left: 2vw;
+}
 .left, .right {
-    width: 48%;
-    color: aliceblue;
+    width: 60%;
     font-family: 'Poppins', sans-serif;
 }
+.left {
+background-color:#eeeee0;
+height: 70vw;
+position: relative;
+top: 1vw;
+font-family: 'Alegreya', serif;
+left:5%;
+padding: 20px;
+font-size: 1.7vw;
 
+}
 .left h2, .right h2 {
     margin-top: 0;
 }
@@ -90,16 +139,20 @@ section.corpo-site
   top: 5vw;
   font-size: 1.7vw;
 }
+
 .right{
   position: relative;
-  top: 5vw;
+  top: 1vw;
   width: 18%;
   right: 16%;
+  background-color: #eeeee0;
+  padding: 15px;
+  
 }
 .right h2{
   text-align: right;
   color: #007BFF;
-  font-size: 2vw;
+  font-size: 1.7vw;
   position: relative;
 }
 .right p {
@@ -109,6 +162,123 @@ section.corpo-site
   font-size: 1vw;
   
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.left-sercom, .right-srercom {
+    width: 60.80%;
+    color: aliceblue;
+}
+
+section>.left-sercom {
+    text-align: left;
+    position: relative;
+    top: 55vw;
+    left: 4.5%;
+    background-color: #eeeee0;
+    color: #000000;
+    font-family: 'Alegreya', serif;
+    padding-inline-start: 10px;
+}
+section>.left-sercom h3{
+    font-size: 48px;
+    position: relative;
+    left: 2%;
+    color: #007BFF;
+}
+section>.left-sercom p{
+    font-size: 1.7vw;
+    position: relative;
+    left: 1%;
+    padding: 10px;
+}
+.right-sercom {
+    text-align: left;
+    position: relative;
+    top: 55vw;
+    width: 18%;
+    right: 15.8%;
+    background-color: #eeeee0;
+    padding: 15px;
+    color: #000000;
+    font-family: 'Alegreya', serif;
+   
+    
+  }
+.right-sercom h3 {
+ font-size: 2vw;
+  position: relative;
+  color: #007BFF;
+  text-align: right;
+    
+}
+.right-sercom p {
+position: relative;
+top: 2vw;
+font-size: 1.7vw;
+text-align: right;
+
+}
+
+/*formação*/
+formation-section {
+    margin: 20px;
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+.formation-section h3 {
+  color: #007BFF;
+  position: relative;
+  top: 55vw;
+  font-size: 2vw;
+  left:2.7vw;
+}
+.formation-section p {
+
+color: aliceblue;
+position: relative;
+top:55vw ;
+left:2.7vw;
+font-size: 1.7vw;
+}
+
+.formation-section ul {
+width: 60vw;
+margin: 10px;
+border: solid red;
+color: aliceblue;
+position: relative;
+top:55vw ;
+left:2.7vw;
+font-size: 1.7vw;
+}
+
+
+
+
+
 .btn-link {
 
   font-size: 2vw;
@@ -166,3 +336,10 @@ section.corpo-site
 .phone-number {
   margin: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  
