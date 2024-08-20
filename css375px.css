@@ -1,0 +1,139 @@
+@media only screen and (max-width: 378px) {
+  section.left-section {
+    position: relative;
+    width: 45vw;
+  }
+  section .right-section {
+    width: 25vw;
+    height: 135vw;
+    position: relative;
+    right: 12vw;
+  }
+
+  .left {
+    background-color: #eeeee0;
+    height: 90vw;
+    position: relative;
+    font-family: "Alegreya", serif;
+    width: 45vw;
+    padding-inline-start: 20px;
+    font-size: 1.7vw;
+    padding: 15px;
+  }
+  .left h2 {
+    color: #007bff;
+    font-size: 4vw;
+  }
+  .left h3 {
+    font-size: 2vw;
+    position: relative;
+    top: 2vw;
+  }
+  .left p {
+    position: relative;
+    top: 5vw;
+    font-size: 1.7vw;
+  }
+  .right {
+    font-family: "Poppins", sans-serif;
+  }
+  .right {
+    background-color: #eeeee0;
+    padding: 15px;
+    font-family: "Alegreya", serif;
+    padding: 10px;
+    font-size: 1.7vw;
+    position: relative;
+    height: 90vw;
+  }
+  .right h2 {
+    text-align: center;
+    color: #007bff;
+    font-size: 1.8vw;
+    position: relative;
+  }
+  .right p {
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    font-size: 1.7vw;
+  }
+  section > .left-sercom {
+    text-align: left;
+    top: 4vw;
+    background-color: #eeeee0;
+    color: #000000;
+    font-family: "Alegreya", serif;
+    padding-inline-start: 20px;
+    width: 45vw;
+  }
+  section > .left-sercom h3 {
+    font-size: 4vw;
+    position: relative;
+    left: 2%;
+    color: #007bff;
+  }
+  section > .left-sercom p {
+    font-size: 1.7vw;
+    position: relative;
+    left: 1%;
+  }
+  .container2 {
+    border: solid red;
+  }
+  .right-sercom {
+    text-align: center;
+    position: relative;
+
+    background-color: #eeeee0;
+    color: #000000;
+    font-family: "Alegreya", serif;
+  }
+  .right-sercom h3 {
+    padding: 10px;
+    position: relative;
+    font-size: 3vw;
+    color: #007bff;
+    text-align: center;
+  }
+  .right-sercom p {
+    margin-top: 20px;
+    font-size: 1.7vw;
+    text-align: center;
+  }
+  section > .fundo {
+    position: relative;
+    background-color: #eeeee0;
+    top: 4vw;
+    height: 42vw;
+  }
+  .introducao {
+    background-color: #000000;
+    color: aliceblue;
+    background-image: url(./experiencia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Alegreya", serif;
+    position: relative;
+    background-position-x: right;
+  }
+  .introducao h2 {
+    font-size: large;
+    font-size: 5vw;
+    position: relative;
+  }
+  .introducao span {
+    color: #007bff;
+  }
+  .introducao h3 {
+    font-size: large;
+    font-size: 5vw;
+    padding: 10px;
+    position: relative;
+  }
+  .introducao p {
+    font-size: 7vw;
+    padding: 10px;
+    position: relative;
+  }
+}
