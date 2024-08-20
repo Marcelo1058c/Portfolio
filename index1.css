@@ -51,6 +51,7 @@ main {
   justify-content: space-between;
   padding: 20px;
   font-family: "Alegreya", serif;
+  
 }
 .introducao {
   background-color: #000000;
@@ -67,7 +68,7 @@ main {
 .introducao h2 {
   font-size: large;
   font-size: 3vw;
-  padding: 20px;
+  padding: 10px;
   position: relative;
   left: 2vw;
 }
@@ -77,7 +78,7 @@ main {
 .introducao h3 {
   font-size: large;
   font-size: 3vw;
-  padding: 20px;
+  padding: 10px;
   position: relative;
   left: 2vw;
 }
@@ -88,11 +89,10 @@ main {
   position: relative;
   left: 2vw;
 }
-.left,
-.right {
-  width: 80%;
-  font-family: "Poppins", sans-serif;
+section.left-section {
+  height: 100vw;
 }
+
 .left {
   background-color: #eeeee0;
   height: 70vw;
@@ -103,7 +103,6 @@ main {
   font-size: 1.7vw;
   padding: 15px;
 }
-.left h2,
 .right h2 {
   margin-top: 0;
 }
@@ -121,17 +120,17 @@ main {
   top: 5vw;
   font-size: 1.7vw;
 }
-
+.right {
+  font-family: "Poppins", sans-serif;
+}
 .right {
   background-color: #eeeee0;
   padding: 15px;
-  height: 70vw;
-  width: 25vw;
-  position: relative;
   font-family: "Alegreya", serif;
-  right: 30%;
   padding: 10px;
   font-size: 1.7vw;
+  position: relative;
+  height: 70vw;
 }
 .right h2 {
   text-align: center;
@@ -140,6 +139,7 @@ main {
   position: relative;
 }
 .right p {
+  margin: 3vw;
   text-align: center;
   position: relative;
   top: 5vw;
@@ -151,11 +151,12 @@ main {
   justify-content: space-between;
   margin: 30px;
 }
-
-.left-sercom,
-.right-srercom {
+section .right-section {
+  width: 25vw;
+  height: 100vw;
+  position: relative;
+  right: 12vw;
 }
-
 section > .left-sercom {
   text-align: left;
   position: relative;
@@ -181,69 +182,30 @@ section > .left-sercom p {
 .right-sercom {
   text-align: center;
   position: relative;
-  right: 30%;
-  height: 25vw;
-  min-height: 200px;
+  height: 16vw;
   top: 4vw;
   background-color: #eeeee0;
   color: #000000;
   font-family: "Alegreya", serif;
 }
 .right-sercom h3 {
-  font-size: 2vw;
-
+  padding: 10px;
+  position: relative;
+  font-size: 3vw;
   color: #007bff;
   text-align: center;
 }
 .right-sercom p {
-  top: 2vw;
+  margin-top: 20px;
   font-size: 1.7vw;
   text-align: center;
+  margin: px;
 }
-
-/*formação*/
-formation {
-  margin: 20px;
-  text-align: center;
-}
-
-h3 {
-  margin: 0;
-  padding-bottom: 5px;
-}
-
-p {
-  margin: 5px 0;
-}
-
-ul {
-  margin: 5px 0;
-  padding-left: 20px;
-}
-.formation h3 {
-  color: #007bff;
+section > .fundo {
   position: relative;
-  top: 55vw;
-  font-size: 2vw;
-  left: 2.7vw;
-}
-.formation p {
-  color: aliceblue;
-  position: relative;
-  top: 55vw;
-  left: 2.7vw;
-  font-size: 1.7vw;
-}
-
-.formation ul {
-  width: 60vw;
-  margin: 10px;
-  border: solid red;
-  color: aliceblue;
-  position: relative;
-  top: 55vw;
-  left: 2.7vw;
-  font-size: 1.7vw;
+  background-color: #eeeee0;
+  top: 4vw;
+  height: vw;
 }
 
 .btn-link {
