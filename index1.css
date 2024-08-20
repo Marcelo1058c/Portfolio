@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-
-body {
-  
-    /*background: linear-gradient(to bottom, #000000, #0754a781);*/
-}
-
-
 .interface {
   max-width: 1280px;
   margin: 0 auto;
@@ -26,14 +19,13 @@ header > .interface {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header a {
   color: rgba(240, 248, 255, 0.945);
   text-decoration: none;
 }
-
 
 header nav ul {
   list-style: none;
@@ -46,249 +38,227 @@ header nav li {
 
 /* Efeito de hover nos links de navegação */
 header nav li a:hover {
-  color: #007BFF;
+  color: #007bff;
 }
 
 /* TOPO DO SITE QUE TEM MEU ROSTO LINGO*/
-main{
+main {
   height: 3080px;
-
-
 }
-
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    font-family: 'Alegreya', serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Alegreya", serif;
 }
 .introducao {
-background-color: #000000;
-color: aliceblue;
-width: auto;
-height: auto;
-background-image: url(./experiencia.png);
-background-repeat: no-repeat;
-background-size: cover;
-font-family: 'Alegreya', serif;
-position: relative;
-background-position-x: right;
+  background-color: #000000;
+  color: aliceblue;
+  width: auto;
+  height: auto;
+  background-image: url(./experiencia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Alegreya", serif;
+  position: relative;
+  background-position-x: right;
 }
-.introducao h2{
+.introducao h2 {
   font-size: large;
   font-size: 3vw;
   padding: 20px;
   position: relative;
   left: 2vw;
-
 }
 .introducao span {
-  color: #007BFF;
-
+  color: #007bff;
 }
-.introducao h3{
+.introducao h3 {
   font-size: large;
   font-size: 3vw;
   padding: 20px;
   position: relative;
   left: 2vw;
 }
-.introducao p{
+.introducao p {
   font-size: large;
   font-size: 5vw;
   padding: 20px;
   position: relative;
   left: 2vw;
 }
-.left, .right {
-    width: 60%;
-    font-family: 'Poppins', sans-serif;
+.left,
+.right {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
 }
 .left {
-background-color:#eeeee0;
-height: 80vw;
-position: relative;
-top: 1vw;
-font-family: 'Alegreya', serif;
-left:5%;
-padding: 20px;
-font-size: 1.7vw;
-
+  background-color: #eeeee0;
+  height: 70vw;
+  position: relative;
+  font-family: "Alegreya", serif;
+  width: 55vw;
+  padding-inline-start: 20px;
+  font-size: 1.7vw;
+  padding: 15px;
 }
-.left h2, .right h2 {
-    margin-top: 0;
+.left h2,
+.right h2 {
+  margin-top: 0;
 }
 .left h2 {
-  color: #007BFF;
+  color: #007bff;
   font-size: 4vw;
-  }
-  .left h3 {
-    font-size: 2vw;
-    position: relative;
-    top: 2vw;
-  }
+}
+.left h3 {
+  font-size: 2vw;
+  position: relative;
+  top: 2vw;
+}
 .left p {
   position: relative;
   top: 5vw;
   font-size: 1.7vw;
 }
 
-.right{
-  position: relative;
-  
+.right {
   background-color: #eeeee0;
   padding: 15px;
-  
-  
+  height: 70vw;
+  width: 25vw;
+  position: relative;
+  font-family: "Alegreya", serif;
+  right: 30%;
+  padding: 10px;
+  font-size: 1.7vw;
 }
-.right h2{
-  text-align: right;
-  color: #007BFF;
-  font-size: 1.5vw;
+.right h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 1.8vw;
   position: relative;
 }
 .right p {
-  text-align: right;
+  text-align: center;
   position: relative;
   top: 5vw;
-  font-size: 1vw;
-  
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-size: 1.7vw;
 }
 
 .content-section {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
 }
 
-.left-sercom, .right-srercom {
-    width: 60.80%;
-    color: aliceblue;
+.left-sercom,
+.right-srercom {
 }
 
-section>.left-sercom {
-    text-align: left;
-    position: relative;
-    top: 4vw;
-    left: 7%;
-    width: 56vw;
-    
-    background-color: #eeeee0;
-    color: #000000;
-    font-family: 'Alegreya', serif;
-    padding-inline-start: 20px;
-    
+section > .left-sercom {
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  top: 4vw;
+  background-color: #eeeee0;
+  color: #000000;
+  font-family: "Alegreya", serif;
+  padding-inline-start: 20px;
+  width: 55vw;
 }
-section>.left-sercom h3{
-    font-size: 4vw;
-    position: relative;
-    left: 2%;
-    color: #007BFF;
+section > .left-sercom h3 {
+  font-size: 4vw;
+  position: relative;
+  left: 2%;
+  color: #007bff;
 }
-section>.left-sercom p{
-    font-size: 1.7vw;
-    position: relative;
-    left: 1%;
-    padding: 10px;
+section > .left-sercom p {
+  font-size: 1.7vw;
+  position: relative;
+  left: 1%;
 }
 .right-sercom {
-    text-align: left;
-    position: relative;
-    top: -29vw;
-    width: 17vw;
-    left: 64vw;
-    background-color: #eeeee0;
-    padding: 15px;
-    color: #000000;
-    font-family: 'Alegreya', serif;
-   
-    
-  }
-.right-sercom h3 {
- font-size: 2vw;
+  text-align: center;
   position: relative;
-  color: #007BFF;
-  text-align: right;
-    
+  right: 30%;
+  height: 25vw;
+  min-height: 200px;
+  top: 4vw;
+  background-color: #eeeee0;
+  color: #000000;
+  font-family: "Alegreya", serif;
+}
+.right-sercom h3 {
+  font-size: 2vw;
+
+  color: #007bff;
+  text-align: center;
 }
 .right-sercom p {
-position: relative;
-top: 2vw;
-font-size: 1.7vw;
-text-align: right;
-
+  top: 2vw;
+  font-size: 1.7vw;
+  text-align: center;
 }
 
 /*formação*/
-formation-section {
-    margin: 20px;
-    text-align: left;
+formation {
+  margin: 20px;
+  text-align: center;
 }
 
 h3 {
-    margin: 0;
-    padding-bottom: 5px;
+  margin: 0;
+  padding-bottom: 5px;
 }
 
 p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 ul {
-    margin: 5px 0;
-    padding-left: 20px;
+  margin: 5px 0;
+  padding-left: 20px;
 }
-.formation-section h3 {
-  color: #007BFF;
+.formation h3 {
+  color: #007bff;
   position: relative;
   top: 55vw;
   font-size: 2vw;
-  left:2.7vw;
+  left: 2.7vw;
 }
-.formation-section p {
-
-color: aliceblue;
-position: relative;
-top:55vw ;
-left:2.7vw;
-font-size: 1.7vw;
-}
-
-.formation-section ul {
-width: 60vw;
-margin: 10px;
-border: solid red;
-color: aliceblue;
-position: relative;
-top:55vw ;
-left:2.7vw;
-font-size: 1.7vw;
+.formation p {
+  color: aliceblue;
+  position: relative;
+  top: 55vw;
+  left: 2.7vw;
+  font-size: 1.7vw;
 }
 
-
-
-
+.formation ul {
+  width: 60vw;
+  margin: 10px;
+  border: solid red;
+  color: aliceblue;
+  position: relative;
+  top: 55vw;
+  left: 2.7vw;
+  font-size: 1.7vw;
+}
 
 .btn-link {
-
   font-size: 2vw;
   position: relative;
   top: 28vw;
   width: 30vw;
   left: 30vw;
-  text-align:  center;
-  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
   color: white; /* Letra clara */
   padding: 10px 20px;
   font-size: 16px;
   background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
-  
+
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -297,7 +267,7 @@ font-size: 1.7vw;
 }
 
 .btn-link:hover {
-  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  background-color: #007bffa1; /* Leve tom azul no hover */
   color: white; /* Mantém o texto claro no hover */
 }
 .footer {
@@ -305,7 +275,7 @@ font-size: 1.7vw;
   padding: 20px;
   text-align: center;
   color: white; /* Cor do texto */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer-content {
@@ -333,9 +303,7 @@ font-size: 1.7vw;
   margin: 0;
 }
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-  
