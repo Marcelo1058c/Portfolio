@@ -59,16 +59,19 @@ section.corpo-site
   background-size: 100vw;
   
 }
-
+.texto{
+  position: relative;
+  width: 50vw;
+  left: 20vw;
+  top:20vw;
+  
+}
 .texto h1{
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  padding: 4px;
-  font-size: 7vw;
+    font-size: 4vw;
   position: relative;
-  top: 19vw;
-  width: 70vw;
-  left:10vw;
+   
 }
 .ponto {
 color: #007BFF;
@@ -76,38 +79,12 @@ color: #007BFF;
 .texto p{
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
-  left:10vw;
-  padding: 4px;
-  font-size: 2vw;
-  position: relative;
-  top: 18vw;
-  width: 80vw;
-  
-}
-.btn-link {
-
-  font-size: 2vw;
+   font-size: 1vw;
   position: relative;
  
   
-  text-align:  center;
-  font-family: 'Poppins', sans-serif;
-  color: white; /* Letra clara */
-  padding: 10px 20px;
-  
-  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
-  
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
 }
 
-.btn-link:hover {
-  background-color: #007bffa1 ; /* Leve tom azul no hover */
-  color: white; /* Mantém o texto claro no hover */
-}
 .footer {
   background-color: #333; /* Cor de fundo do rodapé */
   padding: 20px;
@@ -141,34 +118,93 @@ color: #007BFF;
   margin: 0;
 }
 .btns{
-
-  
   position: relative;
-  display:  block;
+  display:  flex;
+  top:5vw;
   justify-content: space-between;
-  top:40vw;
-  left: 20vw;
+  
 }
 .download-btn
   {
   font-size: 2vw;
   position: relative;
-  
-  
   text-align:  center;
   font-family: 'Poppins', sans-serif;
   color: white; /* Letra clara */
   padding: 10px 20px;
-  
   background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
-  
-  border: none;
   border-radius: 5px;
   text-decoration: none;
-  display: inline-block;
   transition: background-color 0.3s ease; /* Suaviza a transição do hover */
 }
 .download-btn:hover {
   background-color: #007bffa1 ; /* Leve tom azul no hover */
   color: white; /* Mantém o texto claro no hover */
+}
+.btn-link {
+  font-size: 2vw;
+  position: relative;
+  text-align:  center;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Letra clara */
+  padding: 10px 20px;
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+   border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+
+.btn-link:hover {
+  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
+@media (max-width: 768px)  {
+ 
+ .btns{
+  position: relative;
+  display:  flex;
+  top:5vw;
+  justify-content: space-between;
+  
+}
+ .download-btn
+  {
+
+  
+  font-size: 2vw;
+  position: relative;
+  text-align:  center;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Letra clara */
+  padding: 5px ;
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+.download-btn:hover {
+  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
+.btn-link {
+  font-size: 2vw;
+  position: relative;
+  text-align:  center;
+  font-family: 'Poppins', sans-serif;
+  color: white; /* Letra clara */
+  padding: 5px;
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+   border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+
+.btn-link:hover {
+  background-color: #007bffa1 ; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
 }

@@ -45,7 +45,243 @@ header nav li a:hover {
 main {
   height: auto;
 }
+.container {
+  
+  justify-content: space-between;
+  padding: 20px;
+  font-family: "Alegreya", serif;
+  
+}
+.introducao {
+  background-color: #000000;
+  color: aliceblue;
+  width: auto;
+  height: auto;
+  background-image: url(./experiencia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Alegreya", serif;
+  position: relative;
+  background-position-x: right;
+  border: solid red;
+}
+.alinhamento-intru{
+  border: solid red;
+  position: relative;
+  width: 60vw;
+  left:25%
+}
+.introducao h2 {
+  
+  font-size: large;
+  font-size: 3vw;
+  padding: 10px;
+  position: relative;
+  
+}
+.introducao span {
+  color: #007bff;
+}
+.introducao h3 {
+  font-size: large;
+  font-size: 3vw;
+  padding: 10px;
+  position: relative;
+  
+}
+.introducao p {
+  font-size: large;
+  font-size: 5vw;
+  padding: 10px;
+  position: relative;
+  
+}
+.container{
+  background-color: #eeeee0;
+  padding: 4%;
+  margin: 10px 10px 10px 10px;
+  border:  solid blue;
+  
+}
+.left h2{
+  font-size: 38px;
+  margin-bottom: 5vw;
+  text-decoration: underline;
+  left:10%;
+  position: relative;
+}
+.left {
+  color:#007bff;
+  position: relative;
+  left:10%;
+  position: relative;
+  
+}
+.left h3 {
+  font-size: 28px;
+  left:10%;
+  position: relative;
+}
 
+.left p{
+  position: relative;
+  width: 50vw;
+  color: #000000;
+  margin-top: 1vw;
+  font-size: 18px;
+  left:10%;
+  position: relative;
+}
+.left-sercom h3{
+  color:#007bff;
+  font-size: 28px;
+  position: relative;
+  margin-top: 2vw;
+  left:20%;
+  position: relative;
+}
+.left-sercom p{
+  position: relative;
+  color: #000000;
+  font-size: 18px;
+  margin-top: 2vw;
+  width: 50vw;
+  left:20%;
+  position: relative;
+  
+}
+.right{
+  color:#007bff;
+  font-size: 18px;
+  position: relative;
+  margin-top: 1vw;
+  left:20%;
+  position: relative;
+  
+}
+.right p{
+  
+  color: #000000;
+  margin-top: 1vw;
+  font-size: 18px;
+  
+  position: relative;
+}
+.right-sercom h2{
+  color:#007bff;
+  font-size: 28px;
+  position: relative;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  
+  position: relative;
+}
+.right-sercom {
+  color:#000000;
+  font-size: 18px;
+  position: relative;
+  left:20%;
+  position: relative;
+}
+.formation h1{
+  color:#007bff;
+  font-size: 28px;
+  text-align: left;
+margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-decoration: underline;
+  left:20%;
+  position: relative;
+}
+.formation p {
+ margin-top: 2vw;
+margin-bottom: 2vw;
+left:20%;
+  position: relative;
+}
+.formation h3 {
+  font-size: 18px;
+  color:#007bff;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  left:20%;
+  position: relative;
+} 
+.formation ul li {
+  font-size: 18px;
+  left:20%;
+  position: relative;
+}
+
+.item p{
+  font-size:18px;
+  left:20%;
+  position: relative;
+}
+
+.btn-link {
+  font-size: 2vw;
+  position: relative;
+  top: 28vw;
+  width: 30vw;
+  left: 30vw;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white; /* Letra clara */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(252, 252, 252, 0.363); /* Fundo preto */
+
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Suaviza a transição do hover */
+}
+
+.btn-link:hover {
+  background-color: #007bffa1; /* Leve tom azul no hover */
+  color: white; /* Mantém o texto claro no hover */
+}
+.footer {
+  background-color: #333; /* Cor de fundo do rodapé */
+  padding: 20px;
+  text-align: center;
+  color: white; /* Cor do texto */
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.linkedin-link {
+  text-decoration: none;
+}
+
+.linkedin-icon {
+  width: 30px; /* Tamanho do ícone do LinkedIn */
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-link:hover .linkedin-icon {
+  transform: scale(1.1); /* Aumenta levemente o ícone no hover */
+}
+
+.phone-number {
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px){
 .container {
   
   justify-content: space-between;
@@ -109,12 +345,12 @@ main {
 }
 .left p{
   position: relative;
-  width: 80vw;
+  width: 50vw;
   color: #000000;
   margin-top: 1vw;
   font-size: 2vw;
 }
-.left-sercom{
+.left-sercom h3{
   color:#007bff;
   font-size: 3vw;
   position: relative;
@@ -123,7 +359,7 @@ main {
 }
 .left-sercom p{
   position: relative;
-  width: 80vw;
+  width: 50vw;
   color: #000000;
   font-size: 2vw;
   margin-top: 2vw;
@@ -137,7 +373,7 @@ main {
 }
 .right p{
   position: relative;
-  width: 80vw;
+  width: 50vw;
   color: #000000;
   margin-top: 1vw;
   font-size: 2vw;
@@ -165,6 +401,7 @@ margin-top: 2vw;
 .formation p {
  margin-top: 2vw;
 margin-bottom: 2vw;
+
 }
 .formation h3 {
   font-size: 3vw;
@@ -173,11 +410,13 @@ margin-bottom: 2vw;
   margin-bottom: 2vw;
 } 
 .formation ul li {
-  font: 2vw;
+  font-size: 3vw;
+  width: 50vw;
 }
 
 .item p{
   font-size:3vw;
+  width: 50vw;
 }
 
 .btn-link {
@@ -240,4 +479,5 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
 }
