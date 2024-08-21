@@ -63,10 +63,10 @@ main {
   font-family: "Alegreya", serif;
   position: relative;
   background-position-x: right;
-  border: solid red;
+  
 }
 .alinhamento-intru{
-  border: solid red;
+ 
   position: relative;
   width: 60vw;
   left:25%
@@ -100,7 +100,7 @@ main {
   background-color: #eeeee0;
   padding: 4%;
   margin: 10px 10px 10px 10px;
-  border:  solid blue;
+  
   
 }
 .left h2{
@@ -303,7 +303,7 @@ body {
 }
 .introducao h2 {
   font-size: large;
-  font-size: 3vw;
+  font-size: 5vw;
   padding: 10px;
   position: relative;
   left: 2vw;
@@ -313,7 +313,7 @@ body {
 }
 .introducao h3 {
   font-size: large;
-  font-size: 3vw;
+  font-size: 5vw;
   padding: 10px;
   position: relative;
   left: 2vw;
