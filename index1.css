@@ -43,11 +43,11 @@ header nav li a:hover {
 
 /* TOPO DO SITE QUE TEM MEU ROSTO LINGO*/
 main {
-  height: 3080px;
+  height: auto;
 }
 
 .container {
-  display: flex;
+  
   justify-content: space-between;
   padding: 20px;
   font-family: "Alegreya", serif;
@@ -85,127 +85,99 @@ main {
 .introducao p {
   font-size: large;
   font-size: 5vw;
-  padding: 20px;
+  padding: 10px;
   position: relative;
   left: 2vw;
 }
-section.left-section {
-  height: 100vw;
-}
-
-.left {
+.container{
   background-color: #eeeee0;
-  height: 70vw;
+  padding: 4%;
+  margin: 10px 10px 10px 10px;
+}
+.left {
+  color:#007bff;
   position: relative;
-  font-family: "Alegreya", serif;
-  width: 55vw;
-  padding-inline-start: 20px;
-  font-size: 1.7vw;
-  padding: 15px;
-}
-.right h2 {
-  margin-top: 0;
-}
-.left h2 {
-  color: #007bff;
-  font-size: 4vw;
+  
 }
 .left h3 {
+  font-size: 3vw;
+}
+.left h2{
+  font-size: 5vw;
+  margin-bottom: 5vw;
+  text-decoration: underline;
+}
+.left p{
+  position: relative;
+  width: 80vw;
+  color: #000000;
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+.left-sercom{
+  color:#007bff;
+  font-size: 3vw;
+  position: relative;
+  width: 50vw;
+  margin-top: 2vw;
+}
+.left-sercom p{
+  position: relative;
+  width: 80vw;
+  color: #000000;
+  font-size: 2vw;
+  margin-top: 2vw;
+  
+}
+.right{
+  color:#007bff;
   font-size: 2vw;
   position: relative;
-  top: 2vw;
+  
 }
-.left p {
+.right p{
   position: relative;
-  top: 5vw;
-  font-size: 1.7vw;
-}
-.right {
-  font-family: "Poppins", sans-serif;
-}
-.right {
-  background-color: #eeeee0;
-  padding: 15px;
-  font-family: "Alegreya", serif;
-  padding: 10px;
-  font-size: 1.7vw;
-  position: relative;
-  height: 70vw;
-}
-.right h2 {
-  text-align: center;
-  color: #007bff;
-  font-size: 1.8vw;
-  position: relative;
-}
-.right p {
-  margin: 3vw;
-  text-align: center;
-  position: relative;
-  top: 5vw;
-  font-size: 1.7vw;
-}
-
-.content-section {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px;
-}
-section .right-section {
-  width: 25vw;
-  height: 100vw;
-  position: relative;
-  right: 12vw;
-}
-section > .left-sercom {
-  text-align: left;
-  position: relative;
-  padding: 20px;
-  top: 4vw;
-  background-color: #eeeee0;
+  width: 80vw;
   color: #000000;
-  font-family: "Alegreya", serif;
-  padding-inline-start: 20px;
-  width: 55vw;
+  margin-top: 1vw;
+  font-size: 2vw;
 }
-section > .left-sercom h3 {
+.right-sercom h2{
+  color:#007bff;
   font-size: 4vw;
   position: relative;
-  left: 2%;
-  color: #007bff;
-}
-section > .left-sercom p {
-  font-size: 1.7vw;
-  position: relative;
-  left: 1%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 .right-sercom {
-  text-align: center;
-  position: relative;
-  height: 16vw;
-  top: 4vw;
-  background-color: #eeeee0;
-  color: #000000;
-  font-family: "Alegreya", serif;
-}
-.right-sercom h3 {
-  padding: 10px;
-  position: relative;
+  color:#000000;
   font-size: 3vw;
-  color: #007bff;
-  text-align: center;
-}
-.right-sercom p {
-  margin-top: 20px;
-  font-size: 1.7vw;
-  text-align: center;
-  margin: px;
-}
-section > .fundo {
   position: relative;
-  background-color: #eeeee0;
-  top: 4vw;
-  height: vw;
+}
+.formation h1{
+  color:#007bff;
+  font-size: 5vw;
+  text-align: left;
+margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-decoration: underline;
+}
+.formation p {
+ margin-top: 2vw;
+margin-bottom: 2vw;
+}
+.formation h3 {
+  font-size: 3vw;
+  color:#007bff;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+} 
+.formation ul li {
+  font: 2vw;
+}
+
+.item p{
+  font-size:3vw;
 }
 
 .btn-link {

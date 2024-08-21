@@ -88,9 +88,8 @@ color: #007BFF;
 
   font-size: 2vw;
   position: relative;
-  top: 28vw;
-  width: 30vw;
-  left: 30vw;
+ 
+  
   text-align:  center;
   font-family: 'Poppins', sans-serif;
   color: white; /* Letra clara */
@@ -141,13 +140,20 @@ color: #007BFF;
 .phone-number {
   margin: 0;
 }
+.btns{
+
+  
+  position: relative;
+  display:  block;
+  justify-content: space-between;
+  top:40vw;
+  left: 20vw;
+}
 .download-btn
   {
-
   font-size: 2vw;
   position: relative;
-  top: 38vw;
-  width: 29vw;
+  
   
   text-align:  center;
   font-family: 'Poppins', sans-serif;
